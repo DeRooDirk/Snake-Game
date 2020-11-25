@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+button {
+    padding: 0.5em;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+#canvas {
+    background-color: rgb(19, 18, 18);
+    border: 20px solid rgb(70, 64, 64);
+}
+
+#second {
+    background-color: rgb(63, 61, 59);
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 20px;
+}
+
+#score {
+    color: rgb(138, 58, 58);
+}
