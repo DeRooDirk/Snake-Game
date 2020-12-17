@@ -3,9 +3,10 @@
 // Retrieven the Canvas And Create the context
 let canvas = document.getElementById('canvas');
 let context = canvas.getContext('2d');
+
 // other Elements
 let n = document.getElementById('new');
-let pause = document.getElementById('pause');
+//let pause = document.getElementById('pause');
 let score = document.getElementById('score');
 //so far so good
 
@@ -38,7 +39,7 @@ function newGame() {
         n.innerText = "New play Game";
         startState = true;
     }
-    //we should clear the canvas (not done ,not working why ?  )
+
     clearInterval(snakeMove);
     context.clearRect(0, 0, canvas.width, canvas.height);
 
